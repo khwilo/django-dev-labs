@@ -1,5 +1,6 @@
-from django.contrib.auth.models import User
 from rest_framework import serializers
+
+from core.user.models import User
 
 
 # Define the fields to be exposed by the API endpoints
